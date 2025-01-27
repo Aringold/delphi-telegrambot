@@ -10,7 +10,6 @@ type ReadsState = 'await_description' | 'await_title' | 'await_url' | 'build' | 
 
 type ReadsTag = 'reads' | 'tweets' | 'media' | 'news' | 'podcast' | 'other';
 
-
 type SectorSlug = 'general' | 'finance' | 'infrastructure' | 'macro-markets' | 'metaverse';
 
 const ERROR_UNAUTHORIZED = 'ERROR_UNAUTHORIZED';
