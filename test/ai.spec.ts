@@ -12,7 +12,6 @@ describe("Fetching URL Summary", () => {
       expect(err.message).to.be.eql(OPENAI_ERROR);
     }
   });
-
   
   it("Fetch the invalid url summary", async () => {
     try {
